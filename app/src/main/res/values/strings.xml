@@ -1,0 +1,59 @@
+<resources>
+    <string name="app_name">Fun Facts Bikini Bottom</string>
+    <string name="main_text">Welcome to My First Android App</string>
+    <string name="move_activity">Pindah Activity</string>
+    <string name="move_with_data">Bangkit Academy</string>
+    <string name="move_with_object">Pindah Activity dengan Object</string>
+    <string name="dial_number">Dial a Number</string>
+    <string name="move_with_result">Pindah Activity untuk Result</string>
+    <string name="result_from_activity">Hasil dari Activity</string>
+    <string name="choose_number">Pilih angka yang kamu suka</string>
+    <string name="_50">50</string>
+    <string name="_100">100</string>
+    <string name="_150">150</string>
+    <string name="_200">200</string>
+    <string name="choose">Pilih</string>
+    <string name="data_received">Data Diterima</string>
+    <string name="object_received">Object Diterima</string>
+    <string name="this_is_moveactivity">Ini MoveActivity</string>
+
+    <string name="heroes_name">Nama Karakter Spongebob</string>
+    <string name="description">Deskripsi</string>
+    <string name="about">About</string>
+    <string name="list">List</string>
+    <string name="grid">Grid</string>
+
+    <string-array name="data_name">
+        <item>SpongeBob SquarePants</item>
+        <item>Patrick Star</item>
+        <item>Squidward Tentacles</item>
+        <item>Mr. Krabs</item>
+        <item>Plankton</item>
+        <item>Gary the Snail</item>
+        <item>Sandy Cheeks</item>
+        <item>Karen (Karen Plankton)</item>
+        <item>Mrs. Puff</item>
+    </string-array>
+    <string-array name="data_description">
+        <item>Memasak Krabby Patty dan melayani pelanggan dengan semangat tinggi. SpongeBob juga berusaha untuk menjadi pengemudi yang baik dan mendapatkan lisensi mengemudi.</item>
+        <item>Menghabiskan waktu bersantai dan menikmati hidup, seringkali membantu SpongeBob dalam petualangan konyol. Dia juga kadang-kadang terlibat dalam pekerjaan sambilan yang tidak serius.</item>
+        <item>Menjaga kas dan berusaha mengejar karier seni dan musik, meskipun sering kali merasa frustrasi dengan pekerjaannya di Krusty Krab.</item>
+        <item>Sangat terobsesi dengan uang dan keuntungan, dia berusaha untuk membuat Krusty Krab sukses dan mendapatkan lebih banyak pelanggan.</item>
+        <item>Berusaha mencuri resep Krabby Patty dan mengalahkan Krusty Krab dengan rencana jahatnya, tetapi sering gagal.</item>
+        <item>Meskipun dia adalah hewan peliharaan, Gary sering menunjukkan kecerdasan dan kemampuan untuk membantu SpongeBob dalam petualangan.</item>
+        <item>Meneliti berbagai hal di Bikini Bottom dan terlibat dalam olahraga ekstrem, dia sering mengajarkan teman-temannya tentang budaya Texas.</item>
+        <item>Memberikan saran dan dukungan kepada Plankton dalam rencana jahatnya, meskipun dia lebih pintar daripada suaminya.</item>
+        <item>Mengajarkan anak-anak di Bikini Bottom bagaimana mengemudikan perahu, seringkali menghadapi kesulitan dengan SpongeBob.</item>
+    </string-array>
+    <integer-array name="data_photo">
+        <item>@drawable/spongebob_squarepants</item>
+        <item>@drawable/patrick_star</item>
+        <item>@drawable/quidward_tentacles</item>
+        <item>@drawable/mr_krabs</item>
+        <item>@drawable/plankton</item>
+        <item>@drawable/gary_the_snail</item>
+        <item>@drawable/sandy_cheeks</item>
+        <item>@drawable/karen_plankton</item>
+        <item>@drawable/mrs_puff</item>
+    </integer-array>
+</resources>
