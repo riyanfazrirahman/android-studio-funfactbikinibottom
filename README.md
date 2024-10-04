@@ -26,10 +26,16 @@ Follow these steps to get a local copy up and running:
    ```
 
 2. Open the project in Android Studio.
-
 3. Build the project by selecting Build > Make Project.
-
 4. Run the app on an Android emulator or a physical Android device by selecting Run > Run 'app'.
+
+## Project Structure
+
+The project is organized into the following key components:
+
+1. MainActivity.kt: The main entry point for the app.
+2. RecyclerView Adapter: Used for displaying lists of characters and facts.
+3. Data Layer: Stores and manages the fun facts for each character.
 
 ## Usage
 
@@ -44,3 +50,9 @@ The project is organized into the following key components:
 1. MainActivity.kt: The main entry point for the app.
 2. RecyclerView Adapter: Used for displaying lists of characters and facts.
 3. Data Layer: Stores and manages the fun facts for each character.
+
+## Screenshots
+
+Here is a screenshot of the Fun Fact Bikini Bottom app:
+
+![App](https://github.com/riyanfazrirahman/androidstudio-funfactbikinibottom/images/mobile-frame.gif)
