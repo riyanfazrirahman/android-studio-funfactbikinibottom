@@ -43,16 +43,8 @@ The project is organized into the following key components:
 2. Tap the Fun Fact button to receive a random fun fact about a Bikini Bottom character.
 3. Explore facts about different characters like SpongeBob, Patrick, and others.
 
-## Project Structure
+## Demo
 
-The project is organized into the following key components:
+Here's a quick demo of the Fun Fact Bikini Bottom app in action:
 
-1. MainActivity.kt: The main entry point for the app.
-2. RecyclerView Adapter: Used for displaying lists of characters and facts.
-3. Data Layer: Stores and manages the fun facts for each character.
-
-## Screenshots
-
-Here is a screenshot of the Fun Fact Bikini Bottom app:
-
-![App](https://github.com/riyanfazrirahman/androidstudio-funfactbikinibottom/images/mobile-frame.gif)
+![App](./mobile-frame.gif)
