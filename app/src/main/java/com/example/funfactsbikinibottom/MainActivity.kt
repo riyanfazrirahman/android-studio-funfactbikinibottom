@@ -110,9 +110,9 @@ class MainActivity : AppCompatActivity() {
     fun aboutMe (): Person {
         return Person(
             "Riyan Fazri Rahman",
-            "a668b4ky3894@bangkit.academy",
+            "riyanfazrirahman@gmail.com",
             "Palangkaraya",
-             R.drawable.ic_about
+             R.drawable.ic_account
         )
     }
 }
