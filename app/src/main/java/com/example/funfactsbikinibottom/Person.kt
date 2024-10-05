@@ -1,0 +1,1 @@
+package com.example.funfactsbikinibottomimport android.os.Parcelableimport kotlinx.parcelize.Parcelize@Parcelizedata class Person(    val name: String?,    val email: String?,    val city: String?,    val photo: Int): Parcelable

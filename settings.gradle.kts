@@ -19,5 +19,5 @@ dependencyResolutionManagement {
     }
 }
 
-rootProject.name = "LatihanDataIntent"
+rootProject.name = "FunFactsBikiniBottom"
 include(":app")
