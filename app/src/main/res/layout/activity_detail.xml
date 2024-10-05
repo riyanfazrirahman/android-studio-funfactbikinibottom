@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    style="@style/bg_primary"
+    >
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="4dp"
+        >
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="16dp"
+            app:cardCornerRadius="16dp"
+            app:cardElevation="8dp">
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:backgroundTint="@color/white"
+                >
+
+                <ImageView
+                    android:id="@+id/iv_detail_photo"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:adjustViewBounds="true"
+                    android:scaleType="fitXY"
+                    tools:srcCompat="@tools:sample/avatars"
+                    android:contentDescription="@string/todo" />
+
+                <TextView
+                    android:id="@+id/tv_detail_more_image"
+                    style="@style/TextContent.BodyMedium.White.MarginAll"
+                    android:layout_gravity="bottom"
+                    android:background="#4D000000"
+                    android:drawablePadding="4dp"
+                    android:gravity="center_vertical"
+                    android:padding="8dp"
+                    app:drawableStartCompat="@drawable/ic_collections_white_18dp" />
+
+            </FrameLayout>
+
+        </androidx.cardview.widget.CardView>
+
+
+        <TextView
+            android:id="@+id/tv_detail_name"
+            style="@style/TextContent.HeadlineMedium.Bold"
+            android:layout_marginTop="16dp"
+            android:layout_marginBottom="16dp"
+            android:text="@string/name_character" />
+
+        <TextView
+            style="@style/TextContent.TitleMedium.Bold.MarginLeftRight"
+            android:layout_marginBottom="8dp"
+            android:text="@string/fun_fact"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/tv_detail_fun_fact"
+            style="@style/TextContent.BodyMedium.Gray.MarginLeftRight"
+            android:layout_marginBottom="16dp"
+            android:lineSpacingMultiplier="1"
+            android:text="@string/content_fun_fact" />
+
+        <TextView
+            style="@style/TextContent.TitleMedium.Bold.MarginLeftRight"
+            android:layout_marginBottom="8dp"
+            android:layout_marginTop="12dp"
+            android:text="@string/detail" />
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:layout_marginBottom="16dp">
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dp">
+
+                <TextView
+                    style="@style/TextContent.BodyMedium.Bold"
+                    android:layout_marginEnd="16dp"
+                    android:text="@string/birthday" />
+
+                <TextView
+                    android:id="@+id/tv_detail_birthday"
+                    style="@style/TextContent.BodyMedium.Gray"
+                    android:layout_weight="1"
+                    android:text="@string/birthday" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dp">
+
+                <TextView
+                    style="@style/TextContent.BodyMedium.Bold"
+                    android:layout_marginEnd="16dp"
+                    android:text="@string/job" />
+
+                <TextView
+                    android:id="@+id/tv_detail_job"
+                    style="@style/TextContent.BodyMedium.Gray"
+                    android:layout_weight="1"
+                    android:text="@string/content_job" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dp">
+
+                <TextView
+                    style="@style/TextContent.BodyMedium.Bold"
+                    android:layout_marginEnd="16dp"
+                    android:text="@string/description" />
+
+                <TextView
+                    android:id="@+id/tv_detail_description"
+                    style="@style/TextContent.BodyMedium.Gray"
+                    android:layout_weight="1"
+                    android:text="@string/description" />
+            </TableRow>
+
+
+        </TableLayout>
+
+        <TextView
+            style="@style/TextContent.TitleMedium.Bold.MarginLeftRight"
+            android:layout_marginTop="12dp"
+            android:layout_marginBottom="8dp"
+            android:text="@string/author" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:layout_marginBottom="16dp">
+
+            <com.google.android.material.imageview.ShapeableImageView
+                android:id="@+id/profile_image"
+                android:layout_width="46dp"
+                android:layout_height="46dp"
+                android:layout_centerVertical="true"
+                android:layout_marginEnd="16dp"
+                android:background="@color/white"
+                app:shapeAppearanceOverlay="@style/roundedImageView"
+                android:src="@drawable/ic_about" />
+
+            <TextView
+                style="@style/TextContent.BodyMedium.Gray"
+                android:layout_centerVertical="true"
+                android:layout_toEndOf="@+id/profile_image"
+                android:text="@string/my_name" />
+        </RelativeLayout>
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btn_about"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textSize="16sp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:layout_marginBottom="16dp"
+            style="@style/Widget.Material3.Button"
+            android:text="@string/about" />
+
+
+    </LinearLayout>
+</ScrollView>

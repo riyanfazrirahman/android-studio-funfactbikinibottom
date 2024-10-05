@@ -5,11 +5,11 @@ plugins {
 }
 
 android {
-    namespace = "com.example.latihandataintent"
+    namespace = "com.example.funfactsbikinibottom"
     compileSdk = 34
 
     defaultConfig {
-        applicationId = "com.example.latihandataintent"
+        applicationId = "com.example.funfactsbikinibottom"
         minSdk = 29
         targetSdk = 34
         versionCode = 1
@@ -46,4 +46,5 @@ dependencies {
     testImplementation(libs.junit)
     androidTestImplementation(libs.androidx.junit)
     androidTestImplementation(libs.androidx.espresso.core)
+    implementation("com.google.android.material:material:1.8.0")
 }

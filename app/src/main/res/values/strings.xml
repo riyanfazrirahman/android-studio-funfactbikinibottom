@@ -1,27 +1,22 @@
 <resources>
     <string name="app_name">Fun Facts Bikini Bottom</string>
-    <string name="main_text">Welcome to My First Android App</string>
-    <string name="move_activity">Pindah Activity</string>
-    <string name="move_with_data">Bangkit Academy</string>
-    <string name="move_with_object">Pindah Activity dengan Object</string>
-    <string name="dial_number">Dial a Number</string>
-    <string name="move_with_result">Pindah Activity untuk Result</string>
-    <string name="result_from_activity">Hasil dari Activity</string>
-    <string name="choose_number">Pilih angka yang kamu suka</string>
-    <string name="_50">50</string>
-    <string name="_100">100</string>
-    <string name="_150">150</string>
-    <string name="_200">200</string>
-    <string name="choose">Pilih</string>
-    <string name="data_received">Data Diterima</string>
-    <string name="object_received">Object Diterima</string>
-    <string name="this_is_moveactivity">Ini MoveActivity</string>
-
-    <string name="heroes_name">Nama Karakter Spongebob</string>
-    <string name="description">Deskripsi</string>
-    <string name="about">About</string>
+    <string name="my_name">Riyan Fazri Rahman</string>
+    <string name="email"></string>
     <string name="list">List</string>
     <string name="grid">Grid</string>
+
+    <string name="name_character">Name Character</string>
+    <string name="birthday">Birthday</string>
+    <string name="job">Job</string>
+    <string name="content_job">Job</string>
+    <string name="description">Description</string>
+    <string name="detail">Detail</string>
+    <string name="fun_fact">Fun Fact</string>
+    <string name="content_fun_fact">Fun Fact</string>
+    <string name="author">Author</string>
+    <string name="about">About me</string>
+    <string name="account">account</string>
+    <string name="todo">TODO</string>
 
     <string-array name="data_name">
         <item>SpongeBob SquarePants</item>
@@ -31,29 +26,80 @@
         <item>Plankton</item>
         <item>Gary the Snail</item>
         <item>Sandy Cheeks</item>
-        <item>Karen (Karen Plankton)</item>
+        <item>Karen </item>
         <item>Mrs. Puff</item>
+        <item>Fred</item>
+        <item>Bubble Bass</item>
+        <item>Larry the Lobster</item>
+    </string-array>
+    <string-array name="data_funfact">
+        <item>"""SpongeBob's voice, voiced by Tom Kenny, is one of the character's hallmarks. The inspiration for the rabbit sound is not only to create a cheerful sound, but also to give an energetic and enthusiastic impression. Tom Kenny often creates improvises in recording studios, and some of his improvisation becomes an iconic part of the character SpongeBob. For example, when SpongeBob laughs or screams, it's a natural reaction from Tom that is taken directly!"""</item>
+        <item>"""Although Patrick looks stupid, he sometimes shows funny wisdom. In the episode "The Secret Box," he keeps a mysterious box and creates tension around SpongeBob and Squidward. This moment illustrates how Patrick's ignorance can be a source of humor that is so hilarious—he doesn't realize that everyone is curious about the box, and his ignorance adds to the chaos instead. """</item>
+        <item>"""Squidward's dissatisfaction with his life is often the subject of a joke. He is an artist who is stuck in a job he hates, but has big dreams. In certain episodes, he tries to pursue his dreams in ridiculous ways—like trying to become a famous musician—but always ends in miserable failure. This character depicts the conflict between dreams and reality in a very funny way. """</item>
+        <item>"""Mr. Krabs is a very stingy and money-obsessed character. However, there are times when that nature creates funny situations. For example, in the episode "Krusty Love," she ignores everyone around her just for the sake of collecting more money. This often makes the audience laugh because of how stupid Mr. Krabs's actions are when he focuses too much on money rather than on the people he loves. """</item>
+        <item>"""Plankton's evil plan to steal Krabby Patty's recipe often fails in the most ridiculous way. For example, he once tried to disguise himself as "Krabby Patty" to seduce SpongeBob, but in the end he was always caught. This creates a funny situation where his clever crime becomes a laughing stock instead of a serious threat. """</item>
+        <item>"""Gary has a unique personality even though he is a pet. With his "meow" voice, he is often SpongeBob's conscience. In some episodes, he shows intelligence and the ability to save situations, such as when he saves SpongeBob from a problem of his own making. Their relationship reflects the strong bond between the owner and the pet, but with a touch of humor. """</item>
+        <item>"""As the only squirrel in Bikini Bottom, Sandy always brings a Texas feel to the most ridiculous situations. He combines his love of science and extreme sports, such as practicing karate and testing new tools, in a way that often invites laughter. When Sandy holds a competition or a challenge, she often has to deal with the silliness that comes from her friends. """</item>
+        <item>"""As a highly intelligent computer, Karen is often the voice of logic in Plankton's evil plans. However, she also has a funny side of humor, such as when she gets frustrated with her husband's stupidity. In some episodes, their interaction creates a unique comedic dynamic, where he is smarter than Plankton, but is still willing to help him with silly plans. """</item>
+        <item>"""Mrs. Puff is SpongeBob's driving teacher who is very patient, although she often faces terrible situations while teaching. Fun fact: He's actually a puffer fish that can inflate when frightened. In the episode "Boat Smarts," he is forced to teach SpongeBob again and again, even though the result always leads to chaos! """</item>
+        <item>"""Fred is a character who appears in various episodes as a visitor to the Krusty Krab who is often caught up in hilarious situations. He is famous for his line, "The Krabby Patty is delicious!" Fun fact: Fred became an iconic meme on the internet, due to his frequent repetition of sentences, making him an easy-to-remember character despite his small role! """</item>
+        <item>"""Bubble Bass is an antagonist character who often annoys SpongeBob and his friends in the Krusty Krab. He is known for his big belly and is very picky. Fun fact: She was one of the first characters to reveal that Krabby Patty has a secret material, and that's one of the reasons why she often returns to the Krusty Krab! """</item>
+        <item>"""Larry is a well-known athletic lobster in Bikini Bottom and is often seen on the beach exercising. He was very popular and became a symbol of strength and confidence. Fun fact: Larry is a role model for other characters, but behind his muscles, he also shows a side of humor and humility. In some episodes, he is involved in various competitions, and even though he is strong, the situation often ends in a funny ending! """</item>
+    </string-array>
+    <string-array name="data_birthday">
+        <item>July 14</item>
+        <item>March 30</item>
+        <item>October 9</item>
+        <item>November 30</item>
+        <item>February 29</item>
+        <item>November 2</item>
+        <item>February 17</item>
+        <item>April 1</item>
+        <item>January 19</item>
+        <item>don\'t know for sure</item>
+        <item>don\'t know for sure</item>
+        <item>don\'t know for sure</item>
+    </string-array>
+    <string-array name="data_job">
+        <item>Chef at Krusty Krab.</item>
+        <item>Does not have a permanent job.</item>
+        <item>Cashier at Krusty Krab and artist.</item>
+        <item>Owner and manager of Krusty Krab.</item>
+        <item>Owner and manager of Chum Bucket.</item>
+        <item>SpongeBob\'s pet.</item>
+        <item>Scientist and athlete.</item>
+        <item>Computer and Plankton assistant.</item>
+        <item>Driving teacher.</item>
+        <item>Krusty Krab Visitor.</item>
+        <item>Krusty Krab Customer.</item>
+        <item>Athlete and lifeguard.</item>
     </string-array>
     <string-array name="data_description">
-        <item>Memasak Krabby Patty dan melayani pelanggan dengan semangat tinggi. SpongeBob juga berusaha untuk menjadi pengemudi yang baik dan mendapatkan lisensi mengemudi.</item>
-        <item>Menghabiskan waktu bersantai dan menikmati hidup, seringkali membantu SpongeBob dalam petualangan konyol. Dia juga kadang-kadang terlibat dalam pekerjaan sambilan yang tidak serius.</item>
-        <item>Menjaga kas dan berusaha mengejar karier seni dan musik, meskipun sering kali merasa frustrasi dengan pekerjaannya di Krusty Krab.</item>
-        <item>Sangat terobsesi dengan uang dan keuntungan, dia berusaha untuk membuat Krusty Krab sukses dan mendapatkan lebih banyak pelanggan.</item>
-        <item>Berusaha mencuri resep Krabby Patty dan mengalahkan Krusty Krab dengan rencana jahatnya, tetapi sering gagal.</item>
-        <item>Meskipun dia adalah hewan peliharaan, Gary sering menunjukkan kecerdasan dan kemampuan untuk membantu SpongeBob dalam petualangan.</item>
-        <item>Meneliti berbagai hal di Bikini Bottom dan terlibat dalam olahraga ekstrem, dia sering mengajarkan teman-temannya tentang budaya Texas.</item>
-        <item>Memberikan saran dan dukungan kepada Plankton dalam rencana jahatnya, meskipun dia lebih pintar daripada suaminya.</item>
-        <item>Mengajarkan anak-anak di Bikini Bottom bagaimana mengemudikan perahu, seringkali menghadapi kesulitan dengan SpongeBob.</item>
+        <item>Cook Krabby Patty and serve customers with high spirits. SpongeBob also strives to be a good driver and get a driver\'s license.</item>
+        <item>Spending time relaxing and enjoying life, often helping SpongeBob on silly adventures. He also occasionally engages in casual jobs that are not serious.</item>
+        <item>Keeps a cash flow and tries to pursue an art and music career, despite often feeling frustrated with his work at the Krusty Krab.</item>
+        <item>Obsessed with money and profit, he strives to make Krusty Krab successful and gain more customers.</item>
+        <item>Attempting to steal the recipe for the Krabby Patty and defeat the Krusty Krab with his evil plans, but often fails.</item>
+        <item>Although he is a pet, Gary often shows intelligence and ability to help SpongeBob on adventures.</item>
+        <item>Researching things in Bikini Bottom and engaging in extreme sports, she often teaches her friends about Texas culture.</item>
+        <item>Gives advice and support to Plankton in his evil plans, even though he is smarter than her husband.</item>
+        <item>Teaches kids in Bikini Bottom how to steer a boat, often facing difficulties with SpongeBob.</item>
+        <item>Appears as a supporting character who often expresses his excitement for food in the Krusty Krab.</item>
+        <item>An antagonist character who often annoys SpongeBob and tests his cooking skills.</item>
+        <item>Involved in various sports and being a symbol of strength in Bikini Bottom, often seen training on the beach.</item>
     </string-array>
     <integer-array name="data_photo">
-        <item>@drawable/spongebob_squarepants</item>
-        <item>@drawable/patrick_star</item>
-        <item>@drawable/quidward_tentacles</item>
-        <item>@drawable/mr_krabs</item>
-        <item>@drawable/plankton</item>
-        <item>@drawable/gary_the_snail</item>
-        <item>@drawable/sandy_cheeks</item>
-        <item>@drawable/karen_plankton</item>
-        <item>@drawable/mrs_puff</item>
+        <item>@drawable/ic_spongebob_squarepants</item>
+        <item>@drawable/ic_patrick_star</item>
+        <item>@drawable/ic_squidward_tentacles</item>
+        <item>@drawable/ic_mr_krabs</item>
+        <item>@drawable/ic_plankton</item>
+        <item>@drawable/ic_gary_the_snail</item>
+        <item>@drawable/ic_sandy_cheeks</item>
+        <item>@drawable/ic_karen_plankton</item>
+        <item>@drawable/ic_mrs_puff</item>
+        <item>@drawable/ic_fred</item>
+        <item>@drawable/ic_bubble_bass</item>
+        <item>@drawable/ic_larry_the_lobster</item>
     </integer-array>
 </resources>
